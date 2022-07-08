@@ -11,6 +11,8 @@ struct rectangle
 int main()
 {
     struct rectangle r = {2, 4};
-    printf("%d", sizeof(r));
+    // printf("%d", sizeof(r));
+    printf("%d\n", r.length);
+    printf("%d\n", r.breadth);
     return 0;
 }
